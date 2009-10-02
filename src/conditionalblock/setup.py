@@ -37,7 +37,7 @@ setup(name=name,
       keywords='django templatetags',
       author='Jacob Radford',
       author_email='webmaster@hunter.cuny.edu',
-      url='http://github.com/hcwebdev/conditionalblock/',***
+      url='http://github.com/hcwebdev/conditionalblock/',
       license='BSD',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=[],
