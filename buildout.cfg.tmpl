@@ -1,0 +1,19 @@
+[buildout]
+parts = 
+    django
+develop = 
+    src/conditionalblock
+eggs = 
+    Django
+    conditionalblock
+    pysqlite
+find-links = http://github.com/hcwebdev/hc.recipe.django/downloads
+
+[django]
+recipe = hc.recipe.django
+project = conditionalblock
+settings = test_settings
+test-script = test
+test = 
+    conditionalblock
+eggs = ${buildout:eggs}
